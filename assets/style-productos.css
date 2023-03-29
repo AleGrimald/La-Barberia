@@ -1,0 +1,89 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;/*pone un espacio interior*/
+}
+
+.caja{
+    width: 940px;/*le da un ancho en pixeles o % o otras medidas*/
+    position: relative;
+    margin: 0 auto;/*pone los margenes, en este caso el primer parametro es TOP y BOTTON y el segundo RIGHT y LEft*/
+}
+
+nav li{
+    display: inline;/*ordena los items de la lista en linea*/
+    margin: 0 0 0 15px;/*pone margenes, tiene 4 parametras, TOP, RIGHT, BOTTON, LEFT*/
+}
+nav a{
+    text-transform: uppercase;/*pone el texto en mayuscula*/
+    color: black;/*color de la letra*/
+    font-weight: bold; /*pone en negrita la letra*/
+    font-size: 22px;/*tamaño de la letra*/
+    text-decoration: none;/*decoracion del texto, en este caso "a" trae subrayado por defecto, con NONE le quito esa decorecion*/
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    border-radius: 5%;/*da esquinas redondeadas, si pongo un parametro entonces aprica a todas las esquinas, si no va TOP,RIGHT,BOTTON,LEFT*/
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+nav a:hover{
+    color: rgb(214, 136, 46);
+    text-decoration: underline;
+}
+
+.productos li:hover{
+    border: 2px solid  rgb(214, 136, 46);
+}
+
+.productos li:active{
+    border: 2px solid #088c19;
+}
+
+.productos li:hover h2{ /*cuando pase el mouse por el "li" afecta al h2*/
+    font-size: 33px;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 40px;
+    background: url(recursos/imagenes/bg.jpg);
+}
+
+.copyright{
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}

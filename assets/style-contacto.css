@@ -1,0 +1,114 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;/*pone un espacio interior*/
+}
+
+.caja{
+    width: 940px;/*le da un ancho en pixeles o % o otras medidas*/
+    position: relative;
+    margin: 0 auto;/*pone los margenes, en este caso el primer parametro es TOP y BOTTON y el segundo RIGHT y LEft*/
+}
+
+nav li{
+    display: inline;/*ordena los items de la lista en linea*/
+    margin: 0 0 0 15px;/*pone margenes, tiene 4 parametras, TOP, RIGHT, BOTTON, LEFT*/
+}
+nav a{
+    text-transform: uppercase;/*pone el texto en mayuscula*/
+    color: black;/*color de la letra*/
+    font-weight: bold; /*pone en negrita la letra*/
+    font-size: 22px;/*tamaño de la letra*/
+    text-decoration: none;/*decoracion del texto, en este caso "a" trae subrayado por defecto, con NONE le quito esa decorecion*/
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav a:hover{
+    color: rgb(214, 136, 46);
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 40px;
+    background: url(recursos/imagenes/bg.jpg);
+}
+
+.copyright{
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+
+/*Main*/
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;/*primer parametros arriba abajo, segundo parametro izquierda derecha*/
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 25px;/*primer parametro arriba abajo, segundo parametro izquierda derecha*/
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 30%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 2s all;
+
+}
+.enviar:hover{
+    background-color: rgb(185, 102, 0);
+    transform: scale(1.11) rotate(1.5deg);    
+}
+
+
+
+table{
+    margin: 40px 40px;
+}
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
